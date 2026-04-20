@@ -19,3 +19,5 @@
 ---
 include:
   - board: bakeneko60_go
+    shield: <existing shields> raw_hid_adapter # <-- required for Raw HID support
+    snippet: studio-rpc-usb-uart # <-- required for ZMK Studio support
